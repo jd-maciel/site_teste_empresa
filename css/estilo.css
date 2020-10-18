@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+body{
+    background-image: url(../image/bg-fundo.jpg);
+}
+
+a:link{
+    color:  rgb(241, 241, 241); /*para nao mudar a cor do link precisa add os 4 estados, estado 1 */
+    /* text-decoration: none;  --- para nao ter decoraçao nenhuma no link*/ 
+    text-decoration: none; 
+}
+
+a:visited{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 2  */
+    text-decoration: none; 
+}
+
+a:active{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 3  */
+    text-decoration: none; 
+}
+
+a:hover{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 4  */
+    text-decoration: none; 
+}
+
+#bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+   
+
+    overflow: hidden;  /* O QUE TRANSBORDAR DO VIDEO, ESSE COMANDO CORRIGE*/
+}
+
+#mascara{
+    background-color: rgba(177, 177, 177, 0.432)
+}
+
+#logo{
+    position: absolute;
+    top:50px;
+    left: 25px;
+    width: 160px;
+    height: 110px;
+    background-color: rgba(244, 247, 247, 0.418);      
+
+    border-radius: 90%;
+}
+
+
+
+.logo-igual{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    
+
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo2{
+    top: 50%;
+    font-size: 14px;
+    color: rgb(253, 253, 253);
+    
+    
+  
+}
+
+
+
+
+
+
+
+
+
+#menu{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    width: 160px;
+    height: 50%;
+       
+}
+
+
+.menu-principal{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 25px;
+    background-color: rgba(244, 247, 247, 0.418);
+
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-principal:hover{
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#servico{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+
+     border-radius: 150px;
+
+    box-shadow: 2px 2px 5px #000000; 
+}
+
+#servico:hover{
+    width: 80.1%;
+    height: 80.1%;
+
+}
+
+
+
+
+
+#direito{
+    position: absolute;
+    bottom: 10px;
+    left: 550px;
+    width: 22%;
+    height: 15px;
+}
+
+
+
+
+
+
+
+.social-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    
+    width: 40px;
+    height: 40px;
+    background-color: rgb(20, 89, 238); 
+
+    font-size: 29px;
+    
+    /* PARA CENTRALIZAR OBJETOS ..... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* PARA CENTRALIZAR OBJETOS ..... FIM */
+    
+    transition: 0.1s;
+}
+
+.social-icon:hover{ /*quando o mouse passar o icone do face ou whats vai aumentar */
+    width: 38px;
+    height: 38px;
+    /*quando o mouse passar o icone do face ou whats vai aumentar ..... FIM */
+
+    border-radius: 100%;  /*para deixar o objeto redondo quando o mouse passar */
+
+    
+}
+
+#icon-facebook{
+    color: aliceblue;
+}
+
+#icon-whatsapp{
+    position: absolute;
+    bottom: 10px;
+    right: 68px;   
+    
+    color: aliceblue;
+    background-color: rgb(2, 245, 22)
+}
